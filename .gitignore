@@ -1,0 +1,3 @@
+#ignore face detector model
+face_detector/*
+_pycache_/
