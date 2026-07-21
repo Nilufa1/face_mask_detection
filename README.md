@@ -19,10 +19,6 @@ A computer vision application built with Python, OpenCV, and TensorFlow/Keras th
 ```text
 face_mask_detection/
 │
-├── face_detector/                # (Ignored by Git) Local Caffe model files
-│   ├── deploy.prototxt
-│   └── res10_300x300_ssd_iter_140000.caffemodel
-│
 ├── mask_detector.h5              # Trained Keras model for mask evaluation
 ├── detect_mask_video.py          # Core script for real-time video processing
 ├── train_mask_detector.py         # Model training pipeline script
