@@ -31,29 +31,4 @@ face_mask_detection/
 └── README.md                     # Project documentation
 ```
 
-## ⚙️ Setup and Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com
-cd face_mask_detection
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add Face Detector Weights
-Because the face detector model weights are large, they are excluded from Git. You must manually create a `face_detector` folder and download:
-* [deploy.prototxt](https://githubusercontent.com)
-* [res10_300x300_ssd_iter_140000.caffemodel](https://github.com)
-
-## 🖥️ How to Run
-Execute the primary script to initialize your webcam and launch real-time processing:
-```bash
-python detect_mask_video.py
-```
-Press `q` on your keyboard to close the live video window safely.
-
 I am proud of myself
