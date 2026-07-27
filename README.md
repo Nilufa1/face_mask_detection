@@ -3,12 +3,12 @@
 
 A computer vision application built with Python, OpenCV, and TensorFlow/Keras that detects human faces in real-time webcam video feeds and predicts whether individuals are wearing face masks.
 
-## 🚀 Features
+##  Features
 * **Real-Time Detection:** Smooth bounding box predictions directly from your webcam stream.
 * **Dual Model Pipeline:** Uses a Caffe-based Single Shot Detector (SSD) for reliable face localization and a custom MobileNetV2 architecture for high-accuracy mask categorization.
 * **Color-Coded Feedback:** Displays a green bounding box if a mask is detected and a red bounding box if no mask is present.
 
-## 🛠️ Built With
+## Tech Stack 
 * Python 3.x
 * OpenCV (cv2)
 * TensorFlow / Keras 3
@@ -27,4 +27,4 @@ face_mask_detection/
 └── README.md                     # Project documentation
 ```
 
-I am proud of myself
+
